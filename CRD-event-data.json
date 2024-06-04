@@ -1,0 +1,15 @@
+json_string = """
+{
+    "crd-event-data": {
+        "date[yyyy-mm-dd]": "2024-06-01",
+        "time[hh:mm:ss.xxxxxx]": "13:33:14.245682",
+        "event-number[n]": "1",
+        "Arduino time[mS]": "10033",
+        "ADC[0-1023]": "10033",
+        "SiPM[mV]": "10033",
+        "Deadtime[mS]": "51.98",
+        "Temp[C]": "21.45",
+    }
+}
+"""
+data = json.loads(json_string)
